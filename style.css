@@ -1,64 +1,66 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #F3F4F6; 
+    background-color: #E8EFF6;
 }
 
 #main {
     text-align: center;
-    background-color: #FFFFFF; 
+    background-color: #FFFFFF;
     width: 400px;
     margin: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.12);
 }
 
 #top {
-    background: linear-gradient(135deg, #4F46E5, #6366F1); 
-    color: white;
-    padding: 20px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    background: linear-gradient(135deg, #2563EB, #3B82F6);
+    color: #F8FAFC;
+    padding: 24px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
 }
 
 input {
     height: 70px;
-    width: 100px;
+    width: 120px;
     margin: 10px auto;
-    border: 2px solid #6366F1;
-    border-radius: 8px;
+    border: 2px solid #93C5FD;
+    border-radius: 10px;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
     display: block;
     outline: none;
+    color: #0F172A;
+    background-color: #F8FAFC;
 }
 
 button {
-    padding: 8px 16px;
+    padding: 10px 18px;
     border: none;
-    border-radius: 6px;
-    background-color: #10B981; 
-    color: white;
+    border-radius: 8px;
+    background-color: #0EA5E9;
+    color: #FFFFFF;
     cursor: pointer;
     font-weight: bold;
 }
 
 button:hover {
-    background-color: #059669; 
+    background-color: #0284C7;
 }
 
 #bottom div {
-    background-color: #F9FAFB;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #E5E7EB;
+    background-color: #F1F5F9;
+    margin: 12px 14px;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #CBD5E1;
 }
 
 h4 {
-    color: #374151; 
+    color: #1E293B;
 }
 
 p {
-    color: #6B7280; 
+    color: #475569;
 }
